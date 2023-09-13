@@ -1,14 +1,14 @@
 """
 126. Want to interpolate an xarray Dataset?
 
-Interp method is easy to use!
+🌟 The `interp` method is user-friendly!
 
-If you don't want gridded output, i.e. 1D output, create new
-DataArrays with a matching dim to pass to interp.
+📈 For non-gridded, 1D output, create matching DataArrays to use with interp.
+
+#python #dataprocessing #datasci
 """
 
 import xarray as xr
-import pandas as pd
 
 ds = xr.tutorial.open_dataset("air_temperature").isel(time=0)
 
